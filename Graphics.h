@@ -1106,7 +1106,7 @@ void piano()
 {
 int x,y,i;
 
-cout<<"\n press signs ,numeric and alphabetic key\n";
+cout<<"\n press signs ,numeric and alphabetic key for sound and change\n";
 nosound();
 menu1();
 nosound();
@@ -1460,7 +1460,7 @@ sound(2635);delay(100); sound(3637);delay(100); sound(2639);delay(100);
 while(!kbhit){
 goto e4; }
 
-//l
+//long
 
 menu1();
 break;
